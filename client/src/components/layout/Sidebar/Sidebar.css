@@ -1,0 +1,125 @@
+.sidebar-wrapper {
+  background: #000;
+}
+
+.menu {
+  background: rgba(0, 0, 0, 0.877);
+  height: 100vh;
+  color: #fff;
+  width: 15em;
+}
+
+/* Search */
+.search {
+  margin: auto;
+  padding-top: 1rem;
+  width: 85%;
+}
+
+.search input {
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 2.2rem;
+  width: 95%;
+}
+
+.search span {
+  position: absolute;
+  z-index: 5;
+  top: 5rem;
+  left: 2rem;
+}
+
+.fa-search {
+  color: rgba(0, 0, 0, 0.822);
+  transform: translate(0, -0.2em);
+}
+
+/* List */
+
+.menu li {
+  list-style-type: none;
+}
+
+.new-note {
+  display: flex;
+  padding-top: 1rem;
+  transform: translate(-1rem);
+  margin-top: 0.6em;
+  cursor: pointer;
+}
+
+.new-notebook {
+  display: flex;
+  transform: translate(-1rem);
+  cursor: pointer;
+}
+
+.new-note:hover > .fa-plus-circle {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}
+
+.new-notebook:hover > .fa-plus-circle {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}
+
+.fa-plus-circle {
+  color: #fca311;
+  font-size: 1.5em;
+  margin-right: 0.5rem;
+}
+
+.fa-plus-circle:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}
+
+/* Notes & Notebooks Dropdown */
+
+/* Notes Dropdown */
+.notes-ul {
+  position: relative !important;
+}
+
+.notes-dropdownToggle {
+  background: #fff;
+  color: #000;
+}
+
+.drop-menu {
+  background: #fff;
+  position: absolute !important;
+  top: 0;
+}
+
+/* Notebooks Dropdown */
+.fa-ellipsis-v {
+  transform: translate(9em);
+  margin: 0;
+  font-size: 1.2em;
+  color: #fca311;
+  cursor: pointer;
+}
+
+.notebooks-ul {
+  margin-top: 3em;
+  border-top: 1px solid #fff;
+  padding-top: 1.2em;
+}
+
+/* Notebook Delete Modal */
+.fa-trash-alt {
+  margin-right: 1em;
+}
+
+.del-option {
+  cursor: pointer;
+}
+
+.del-option:hover {
+  color: red;
+}
